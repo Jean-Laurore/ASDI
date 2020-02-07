@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{62D1C08B-48FC-4DFC-94A8-83FA968DBE4D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentTracker/Validation.cs">
+    <Files>
+      <File FileName="StudentTracker/Program.cs" Line="1" Column="14" NotebookId="1" />
+      <File FileName="StudentTracker/Menu.cs" Line="4" Column="25" NotebookId="1" />
+      <File FileName="StudentTracker/Validation.cs" Line="2" Column="27" NotebookId="1" />
+    </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="0" Y="156" Width="713" Height="810">
+        <Files>
+          <File FileName="../LauroreJean_Lab2/Library.cs" Line="1" Column="1" />
+          <File FileName="../../ASDI/Day3/Day3/Advanced.cs" Line="1" Column="1" />
+          <File FileName="../../ASDI/Day3/Day3/Student.cs" Line="1" Column="1" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudentTracker" expanded="True">
+            <Node name="StudentTracker" expanded="True">
+              <Node name="Validation.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.StudentTracker FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
