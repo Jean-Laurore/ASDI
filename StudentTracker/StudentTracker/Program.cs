@@ -6,7 +6,7 @@ namespace StudentTracker
     {
         static void Main(string[] args)
         {
-
+            Option myOption = new Option();
         }
     }
 }

@@ -1,0 +1,11 @@
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/obj/Debug/netcoreapp3.1/StudentTracker.csprojAssemblyReference.cache
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/obj/Debug/netcoreapp3.1/StudentTracker.AssemblyInfoInputs.cache
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/obj/Debug/netcoreapp3.1/StudentTracker.AssemblyInfo.cs
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/bin/Debug/netcoreapp3.1/StudentTracker
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/bin/Debug/netcoreapp3.1/StudentTracker.deps.json
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/bin/Debug/netcoreapp3.1/StudentTracker.runtimeconfig.json
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/bin/Debug/netcoreapp3.1/StudentTracker.runtimeconfig.dev.json
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/bin/Debug/netcoreapp3.1/StudentTracker.dll
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/bin/Debug/netcoreapp3.1/StudentTracker.pdb
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/obj/Debug/netcoreapp3.1/StudentTracker.dll
+/Users/jeanlaurore/Desktop/ASDI_Projects/StudentTracker/StudentTracker/obj/Debug/netcoreapp3.1/StudentTracker.pdb
