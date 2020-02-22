@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeanlaurore/Desktop/ASDI/Jeanlaurore_CE05/Jeanlaurore_CE05/Jeanlaurore_CE05.csproj",
+      "projectUniqueName": "/Users/jeanlaurore/Desktop/ASDI_Projects/Jeanlaurore_CE05/Jeanlaurore_CE05/Jeanlaurore_CE05.csproj",
       "projectName": "Jeanlaurore_CE05",
-      "projectPath": "/Users/jeanlaurore/Desktop/ASDI/Jeanlaurore_CE05/Jeanlaurore_CE05/Jeanlaurore_CE05.csproj",
+      "projectPath": "/Users/jeanlaurore/Desktop/ASDI_Projects/Jeanlaurore_CE05/Jeanlaurore_CE05/Jeanlaurore_CE05.csproj",
       "packagesPath": "/Users/jeanlaurore/.nuget/packages/",
-      "outputPath": "/Users/jeanlaurore/Desktop/ASDI/Jeanlaurore_CE05/Jeanlaurore_CE05/obj/",
+      "outputPath": "/Users/jeanlaurore/Desktop/ASDI_Projects/Jeanlaurore_CE05/Jeanlaurore_CE05/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

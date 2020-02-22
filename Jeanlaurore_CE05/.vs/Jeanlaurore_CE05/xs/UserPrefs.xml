@@ -4,23 +4,14 @@
       <File FileName="Jeanlaurore_CE05/Program.cs" Line="9" Column="45" NotebookId="1" />
       <File FileName="Jeanlaurore_CE05/Menu.cs" NotebookId="1" />
       <File FileName="Jeanlaurore_CE05/Validation.cs" NotebookId="1" />
-      <File FileName="Jeanlaurore_CE05/Employee.cs" NotebookId="1" />
-      <File FileName="Jeanlaurore_CE05/Hourly.cs" NotebookId="1" />
-      <File FileName="Jeanlaurore_CE05/FullTime.cs" NotebookId="1" />
-      <File FileName="Jeanlaurore_CE05/PartTime.cs" NotebookId="1" />
-      <File FileName="Jeanlaurore_CE05/Salaried.cs" NotebookId="1" />
-      <File FileName="Jeanlaurore_CE05/Manager.cs" NotebookId="1" />
-      <File FileName="Jeanlaurore_CE05/Assignment.cs" Line="236" Column="57" NotebookId="1" />
+      <File FileName="Jeanlaurore_CE05/Employee.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Jeanlaurore_CE05/Hourly.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Jeanlaurore_CE05/FullTime.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Jeanlaurore_CE05/PartTime.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Jeanlaurore_CE05/Salaried.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Jeanlaurore_CE05/Manager.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Jeanlaurore_CE05/Assignment.cs" Line="15" Column="30" NotebookId="1" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="0" Y="23" Width="105" Height="54">
-        <Files>
-          <File FileName="../Week2_Day1/Week2_Day1/Spiderman.cs" Line="1" Column="1" />
-          <File FileName="../Week2_Day1/Week2_Day1/SuperHero.cs" />
-          <File FileName="../Week2_Day1/Week2_Day1/Furniture.cs" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace Jeanlaurore_CE05
 {
     public class Assignment
     {
+        private string _directory = @"../../../output/";
+        private string _fileName = "employees.txt"; //To add inside the pizza folder.
         private Menu _myMenu;
 
         private List<Employee> _employee = new List<Employee>();
@@ -45,6 +48,22 @@ namespace Jeanlaurore_CE05
                     default:
                         break;
                 }
+            }
+        }
+
+        public void CreatingFile()
+        {
+            Directory.CreateDirectory(_directory);
+
+            if (!File.Exists(_directory + _fileName))
+            {
+                File.Create(_directory + _fileName).Dispose();
+                Console.WriteLine("File Created!");
+
+            }
+            else
+            {
+                Console.WriteLine("File exist");
             }
         }
 
@@ -109,25 +128,81 @@ namespace Jeanlaurore_CE05
             Console.WriteLine("==============");
             Console.ForegroundColor = ConsoleColor.Gray;
 
+            CreatingFile();
+            Load();
+            SaveToJSON();
+
             string Name = Validation.ValidateString("\nPlease enter employee name: ");
             string Address = Validation.ValidateString("\nPlease enter employee address: ");
-            decimal PayPerHour = Validation.ValidateDecimal("\nPlease enter employee hourly pay? ");
+            decimal PayPerHour = 40;
             decimal HoursPerWeek = Validation.ValidateDecimal("\nPlease enter employee hours work per weeks? ");
 
             FullTime fullTime = new FullTime(Name.ToUpper(), Address.ToUpper(), PayPerHour, HoursPerWeek);
 
             _employee.Add(fullTime);
 
-            //f.CalculatePay();
 
             Console.WriteLine("\nFull Time employee created.");
 
-            //_employee.Add(f.Name);
-            //_employee.Add(f.Address.);
+            
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
             _myMenu.Display();
             Selection2();
+        }
+
+        private void Load()
+        {
+            using (StreamReader sr = new StreamReader(_directory + _fileName))
+            {
+                while (sr.Peek() > -1)
+                {
+                    string line = sr.ReadLine();
+                    if (line.StartsWith('K'))
+                    {
+                        FullTime f = new FullTime("Kalen", "2235 River", 18, 40);
+                        _employee.Add(f);
+                    }
+                    else if (line.StartsWith('M'))
+                    {
+                        FullTime f1 = new FullTime("Marcus", "2235 Land", 20, 40);
+                        _employee.Add(f1);
+                    }
+                    else if (line.Contains("Kevin"))
+                    {
+                        FullTime f2 = new FullTime("Kevin", "2235 Beach", 15, 40);
+                        _employee.Add(f2);
+                    }
+                }
+            }
+        }
+
+        private void SaveToJSON()
+        {
+            using (StreamWriter sw = new StreamWriter(_directory + _fileName))
+            {
+                sw.WriteLine("[");
+
+                int counter = 0;
+                foreach (Employee employee in _employee)
+                {
+                    sw.WriteLine("{");
+                    sw.WriteLine($"\"Name\":\"{employee.Name}\",");
+                    sw.WriteLine($"\"Address\":\"{employee.Address}");
+                    sw.WriteLine($"\"Yearly\":\"{employee.CalculatePay()}");
+
+                    if (counter < _employee.Count -1)
+                    {
+                        sw.WriteLine("},");
+                    }
+                    else
+                    {
+                        sw.WriteLine("}");
+                    }
+                    counter++;
+                }
+                sw.WriteLine("]");
+            }
         }
 
         public void PartTime()
@@ -231,8 +306,8 @@ namespace Jeanlaurore_CE05
             //Setting UI color
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Remove Employee:");
-            Console.WriteLine("==============");
-            Console.WriteLine("==============");
+            Console.WriteLine("================");
+            Console.WriteLine("================");
             Console.ForegroundColor = ConsoleColor.Gray;
 
             int counter = 0;
@@ -269,6 +344,8 @@ namespace Jeanlaurore_CE05
 
         public void DisplayPayrol()
         {
+
+            
             Console.Clear();
             Console.Clear();
             //Setting UI color
