@@ -19,7 +19,7 @@ namespace Jeanlaurore_CE05
 
         public override void Terminate()
         {
-            Console.WriteLine("WHATEVER!");
+            Console.WriteLine("WHATEVER, BYE THEN!");
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Jeanlaurore_CE05
         public Assignment()
         {
             _myMenu = new Menu("Add Employee", "Remove Employee", "Display Payroll", "Exit");
-            _myMenu.Title = "Course Tracker";
+            _myMenu.Title = "Employee Tracker";
             _myMenu.Display();
             Selection();
         }
@@ -65,6 +65,7 @@ namespace Jeanlaurore_CE05
             {
                 Console.WriteLine("File exist");
             }
+            //SaveToJSON();
         }
 
         public void AddEmployee()
@@ -84,7 +85,7 @@ namespace Jeanlaurore_CE05
            private void Selection2()
             {
             _myMenu = new Menu("Full Time", "Part Time", "Salary", "Manager", "Main Menu");
-            _myMenu.Title = "Employee";
+            _myMenu.Title = "Employees";
             _myMenu.Display();
 
             int choice = Validation.ValidateInt("\nMake a selection: ");
@@ -130,12 +131,11 @@ namespace Jeanlaurore_CE05
 
             CreatingFile();
             Load();
-            SaveToJSON();
 
-            string Name = Validation.ValidateString("\nPlease enter employee name: ");
+            string Name = Validation.ValidateString("\nPlease enter employee name: ");            
             string Address = Validation.ValidateString("\nPlease enter employee address: ");
-            decimal PayPerHour = 40;
-            decimal HoursPerWeek = Validation.ValidateDecimal("\nPlease enter employee hours work per weeks? ");
+            decimal HoursPerWeek = 40;
+            decimal PayPerHour = Validation.ValidateDecimal("\nPlease enter employee pay per hour? ");
 
             FullTime fullTime = new FullTime(Name.ToUpper(), Address.ToUpper(), PayPerHour, HoursPerWeek);
 
@@ -158,19 +158,19 @@ namespace Jeanlaurore_CE05
                 while (sr.Peek() > -1)
                 {
                     string line = sr.ReadLine();
-                    if (line.StartsWith('K'))
+                    if (line.Contains("Kalen"))
                     {
                         FullTime f = new FullTime("Kalen", "2235 River", 18, 40);
                         _employee.Add(f);
                     }
                     else if (line.StartsWith('M'))
                     {
-                        FullTime f1 = new FullTime("Marcus", "2235 Land", 20, 40);
+                        FullTime f1 = new FullTime("Marcus", "2235 Land", 27, 40);
                         _employee.Add(f1);
                     }
                     else if (line.Contains("Kevin"))
                     {
-                        FullTime f2 = new FullTime("Kevin", "2235 Beach", 15, 40);
+                        FullTime f2 = new FullTime("Kevin", "2235 Beach", 27, 40);
                         _employee.Add(f2);
                     }
                 }
@@ -271,13 +271,13 @@ namespace Jeanlaurore_CE05
             Console.WriteLine("========");
             Console.ForegroundColor = ConsoleColor.Gray;
 
-            string Name = Validation.ValidateString("\nPlease enter employee name: ");
-            string Address = Validation.ValidateString("\nPlease enter employee address: ");
-            decimal PayPerHour = Validation.ValidateDecimal("\nPlease enter employee hourly pay? ");
-            decimal HoursPerWeek = Validation.ValidateDecimal("\nPlease enter employee hours work per weeks? ");
+            string Name = Validation.ValidateString("\nPlease enter manager name: ");
+            string Address = Validation.ValidateString("\nPlease enter manager address: ");
+            decimal Salary = Validation.ValidateDecimal("\nPlease enter manager salary? ");
+            decimal Bonus = Validation.ValidateDecimal("\nPlease enter manager bonus? ");
 
             
-            Manager manager = new Manager(Name.ToUpper(), Address.ToUpper(), PayPerHour, HoursPerWeek);
+            Manager manager = new Manager(Name.ToUpper(), Address.ToUpper(), Salary, Bonus);
 
             _employee.Add(manager);
 
@@ -293,7 +293,7 @@ namespace Jeanlaurore_CE05
         public void MainMenu()
         {
             _myMenu = new Menu("Add Employee", "Remove Employee", "Display Payroll", "Exit");
-            _myMenu.Title = "Course Tracker";
+            _myMenu.Title = "Employee Tracker";
             _myMenu.Display();
             Selection();
         }
@@ -311,12 +311,12 @@ namespace Jeanlaurore_CE05
             Console.ForegroundColor = ConsoleColor.Gray;
 
             int counter = 0;
-            Console.WriteLine($"{"  "} {"Name",-10} {"Address",-20} {"Yearly Income"}");
+            Console.WriteLine($"{"  "} {"Name",-15} {"Address",-25} {"Yearly Income"}");
 
             foreach (Employee employee in _employee)
             {
                 counter++;
-                Console.WriteLine($"{counter}. {employee.Name.ToUpper(),-10} {employee.Address.ToUpper(),-20} {employee.CalculatePay().ToString("C")}");
+                Console.WriteLine($"{counter}. {employee.Name.ToUpper(),-15} {employee.Address.ToUpper(),-25} {employee.CalculatePay().ToString("C")}");
             }
 
             string name = Validation.ValidateString("\nPlease enter employee name to remove: ");

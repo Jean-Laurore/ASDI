@@ -5,8 +5,8 @@ namespace Jeanlaurore_CE05
 {
     public class FullTime : Hourly
     {
-        private decimal _payPerHour = 40;
-        private decimal _hoursPerWeek;
+        private decimal _payPerHour;
+        private decimal _hoursPerWeek = 40;
 
         public FullTime(string name, string address, decimal payPerHour, decimal hoursPerWeek) : base(name, address, payPerHour, hoursPerWeek)
         {

@@ -22,7 +22,7 @@ namespace Jeanlaurore_CE05
 
         public override void Terminate()
         {
-            Console.WriteLine("You can't fire me I'm the boss!");
+            Console.WriteLine("You can't fire me I'm the BOSS!");
         }
     }
 }
