@@ -8,14 +8,15 @@ namespace Jeanlaurore_CE05
     public class Assignment
     {
         private string _directory = @"../../../output/";
-        private string _fileName = "employees.txt"; //To add inside the pizza folder.
+        private string _fileName = "employees.txt";
+        private string _jsonFile = "data.json";
         private Menu _myMenu;
 
         private List<Employee> _employee = new List<Employee>();
 
         public Assignment()
         {
-            _myMenu = new Menu("Add Employee", "Remove Employee", "Display Payroll", "Exit");
+            _myMenu = new Menu("Add Employee", "Remove Employee", "Display Payroll", "Save JSON", "Exit");
             _myMenu.Title = "Employee Tracker";
             _myMenu.Display();
             Selection();
@@ -24,7 +25,7 @@ namespace Jeanlaurore_CE05
         private void Selection()
         {
             int choice = Validation.ValidateInt("\nMake a selection: ");
-            if (choice < 1 || choice > 4)
+            if (choice < 1 || choice > 5)
             {
                 Console.WriteLine("Invalid Entry. Try again!");
                 Selection();
@@ -43,6 +44,9 @@ namespace Jeanlaurore_CE05
                         DisplayPayrol();
                         break;
                     case 4:
+                        SaveToJSON();
+                        break;
+                    case 5:
                         Exit();
                         break;
                     default:
@@ -177,9 +181,14 @@ namespace Jeanlaurore_CE05
             }
         }
 
+        /// <summary>
+        /// Save Json need to employee file and return to menu
+        /// </summary>
         private void SaveToJSON()
         {
-            using (StreamWriter sw = new StreamWriter(_directory + _fileName))
+            Load();
+            CreatingFile();
+            using (StreamWriter sw = new StreamWriter(_directory + _jsonFile))
             {
                 sw.WriteLine("[");
 
@@ -203,6 +212,12 @@ namespace Jeanlaurore_CE05
                 }
                 sw.WriteLine("]");
             }
+
+            Console.WriteLine("SAVE!");
+            Console.WriteLine("\nPress any key to continue...");
+            Console.ReadKey();
+            _myMenu.Display();
+            Selection();
         }
 
         public void PartTime()
