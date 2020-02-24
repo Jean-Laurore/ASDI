@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+using System.Threading;
 
 namespace Jeanlaurore_CE05
 {
@@ -16,6 +16,8 @@ namespace Jeanlaurore_CE05
 
         public Assignment()
         {
+            CreatingFile();
+            Load();
             _myMenu = new Menu("Add Employee", "Remove Employee", "Display Payroll", "Save JSON", "Exit");
             _myMenu.Title = "Employee Tracker";
             _myMenu.Display();
@@ -82,6 +84,7 @@ namespace Jeanlaurore_CE05
             Console.WriteLine("=============");
             Console.ForegroundColor = ConsoleColor.Gray;
 
+            
             Selection2();
 
 
@@ -133,9 +136,6 @@ namespace Jeanlaurore_CE05
             Console.WriteLine("==============");
             Console.ForegroundColor = ConsoleColor.Gray;
 
-            CreatingFile();
-            Load();
-
             string Name = Validation.ValidateString("\nPlease enter employee name: ");            
             string Address = Validation.ValidateString("\nPlease enter employee address: ");
             decimal HoursPerWeek = 40;
@@ -164,17 +164,17 @@ namespace Jeanlaurore_CE05
                     string line = sr.ReadLine();
                     if (line.Contains("Kalen"))
                     {
-                        FullTime f = new FullTime("Kalen", "2235 River", 18, 40);
+                        FullTime f = new FullTime("Kalen".ToUpper(), "2235 River".ToUpper(), 18, 40);
                         _employee.Add(f);
                     }
-                    else if (line.StartsWith('M'))
+                    else if (line.Contains("Marcus"))
                     {
-                        FullTime f1 = new FullTime("Marcus", "2235 Land", 27, 40);
+                        FullTime f1 = new FullTime("Marcus".ToUpper(), "2235 Land".ToUpper(), 27, 40);
                         _employee.Add(f1);
                     }
                     else if (line.Contains("Kevin"))
                     {
-                        FullTime f2 = new FullTime("Kevin", "2235 Beach", 27, 40);
+                        FullTime f2 = new FullTime("Kevin".ToUpper(), "2235 Beach".ToUpper(), 27, 40);
                         _employee.Add(f2);
                     }
                 }
@@ -186,20 +186,25 @@ namespace Jeanlaurore_CE05
         /// </summary>
         private void SaveToJSON()
         {
-            Load();
-            CreatingFile();
+
+            Console.Clear();
+            //Setting UI color
+            Console.ForegroundColor = ConsoleColor.Green;
+            LoadingBar();
+            Console.ForegroundColor = ConsoleColor.Gray;
+            
+            //CreatingFile();
             using (StreamWriter sw = new StreamWriter(_directory + _jsonFile))
             {
                 sw.WriteLine("[");
-
+                
                 int counter = 0;
                 foreach (Employee employee in _employee)
                 {
                     sw.WriteLine("{");
-                    sw.WriteLine($"\"Name\":\"{employee.Name}\",");
-                    sw.WriteLine($"\"Address\":\"{employee.Address}");
-                    sw.WriteLine($"\"Yearly\":\"{employee.CalculatePay()}");
-
+                    sw.WriteLine($"\"Name\":\"{employee.Name.ToUpper()}\",");
+                    sw.WriteLine($"\"Address\":\"{employee.Address.ToUpper()}\",");
+                    sw.WriteLine($"\"Yearly\":{employee.CalculatePay()}");
                     if (counter < _employee.Count -1)
                     {
                         sw.WriteLine("},");
@@ -213,7 +218,7 @@ namespace Jeanlaurore_CE05
                 sw.WriteLine("]");
             }
 
-            Console.WriteLine("SAVE!");
+            Console.WriteLine("\nSuccessful!");
             Console.WriteLine("\nPress any key to continue...");
             Console.ReadKey();
             _myMenu.Display();
@@ -307,7 +312,7 @@ namespace Jeanlaurore_CE05
 
         public void MainMenu()
         {
-            _myMenu = new Menu("Add Employee", "Remove Employee", "Display Payroll", "Exit");
+            _myMenu = new Menu("Add Employee", "Remove Employee", "Display Payroll", "Save JSON", "Exit");
             _myMenu.Title = "Employee Tracker";
             _myMenu.Display();
             Selection();
@@ -336,9 +341,6 @@ namespace Jeanlaurore_CE05
 
             string name = Validation.ValidateString("\nPlease enter employee name to remove: ");
 
-
-
-
             foreach (Employee employee in _employee)
             {
                 if (employee.Name.Contains(name.ToUpper()))
@@ -359,7 +361,6 @@ namespace Jeanlaurore_CE05
 
         public void DisplayPayrol()
         {
-
             
             Console.Clear();
             Console.Clear();
@@ -385,12 +386,27 @@ namespace Jeanlaurore_CE05
             Selection();
         }
 
+        public void LoadingBar()
+        {
+            Console.CursorVisible = false;
+            Console.SetCursorPosition(1, 1);
+
+            for (int i = 0; i < 101; i++)
+            {
+                for (int y = 0; y < i; y++)
+                {
+                    Console.Write("");
+                }
+                Console.Write($"SAVING... {i}%");
+                Console.SetCursorPosition(1, 1);
+                Thread.Sleep(50);
+            }
+        }
+
         public void Exit()
         {
-            Console.WriteLine("\nThanks for using my Employee Tracker. GoodBye!");
-
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine("Thanks for using my Employee Tracker. GoodBye!");
         }
     }
 
