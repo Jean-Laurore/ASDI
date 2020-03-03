@@ -1,0 +1,11 @@
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/bin/Debug/netcoreapp3.1/LauroreJean_Zookeeper
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/bin/Debug/netcoreapp3.1/LauroreJean_Zookeeper.deps.json
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/bin/Debug/netcoreapp3.1/LauroreJean_Zookeeper.runtimeconfig.json
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/bin/Debug/netcoreapp3.1/LauroreJean_Zookeeper.runtimeconfig.dev.json
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/bin/Debug/netcoreapp3.1/LauroreJean_Zookeeper.dll
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/bin/Debug/netcoreapp3.1/LauroreJean_Zookeeper.pdb
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/obj/Debug/netcoreapp3.1/LauroreJean_Zookeeper.csprojAssemblyReference.cache
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/obj/Debug/netcoreapp3.1/LauroreJean_Zookeeper.AssemblyInfoInputs.cache
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/obj/Debug/netcoreapp3.1/LauroreJean_Zookeeper.AssemblyInfo.cs
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/obj/Debug/netcoreapp3.1/LauroreJean_Zookeeper.dll
+/Users/jeanlaurore/Desktop/ASDI_Projects/LauroreJean_Zookeeper/LauroreJean_Zookeeper/obj/Debug/netcoreapp3.1/LauroreJean_Zookeeper.pdb

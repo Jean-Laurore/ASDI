@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{FE66517E-688F-47D4-828B-1B6F8CF5A78C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week2_Day1/Day10_Review.cs">
+    <Files>
+      <File FileName="Week2_Day1/Program.cs" Line="48" Column="53" />
+      <File FileName="Week2_Day1/Student.cs" />
+      <File FileName="Week2_Day1/Validation.cs" />
+      <File FileName="Week2_Day1/Eagle.cs" />
+      <File FileName="Week2_Day1/Penguin.cs" />
+      <File FileName="Week2_Day1/Duck.cs" />
+      <File FileName="Week2_Day1/Bird.cs" />
+      <File FileName="Week2_Day1/Day5_Review.cs" />
+      <File FileName="Week2_Day1/Menu.cs" />
+      <File FileName="Week2_Day1/Song.cs" />
+      <File FileName="Week2_Day1/Day6_FileIO.cs" />
+      <File FileName="Week2_Day1/SuperHero.cs" />
+      <File FileName="Week2_Day1/Spiderman.cs" />
+      <File FileName="Week2_Day1/Superman.cs" />
+      <File FileName="Week2_Day1/Furniture.cs" />
+      <File FileName="Week2_Day1/Car.cs" />
+      <File FileName="Week2_Day1/Boat.cs" />
+      <File FileName="Week2_Day1/Vehicle.cs" />
+      <File FileName="Week2_Day1/Day8_JSON.cs" Line="70" Column="4" />
+      <File FileName="Week2_Day1/output/data.json" />
+      <File FileName="Week2_Day1/Interfaces.cs" />
+      <File FileName="Week2_Day1/Day9_Interfaces.cs" />
+      <File FileName="Week2_Day1/Day9_Stock.cs" />
+      <File FileName="Week2_Day1/Day10_Review.cs" Line="83" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Week2_Day1" expanded="True">
+            <Node name="Week2_Day1" expanded="True">
+              <Node name="Day10_Review.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Week2__Day1 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

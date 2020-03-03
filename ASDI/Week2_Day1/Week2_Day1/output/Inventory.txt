@@ -1,0 +1,4 @@
+TV,Sony,500,109283
+Computer,HP,iNTEL,700,20983
+TV,Panasonic,3000,20294
+Fruit,Apple,1.50,20082

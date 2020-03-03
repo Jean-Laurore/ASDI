@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{E92BF68D-12F0-4993-8D06-7AA3817A6495}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JeanLaurore_CE02/Menu.cs">
+    <Files>
+      <File FileName="JeanLaurore_CE02/Program.cs" Line="20" Column="15" />
+      <File FileName="JeanLaurore_CE02/CheckingAccount.cs" />
+      <File FileName="JeanLaurore_CE02/SetAccountBalance.cs" />
+      <File FileName="JeanLaurore_CE02/Customer.cs" />
+      <File FileName="JeanLaurore_CE02/Menu.cs" Line="140" Column="31" />
+      <File FileName="JeanLaurore_CE02/Validation.cs" />
+      <File FileName="JeanLaurore_CE02/DisplayBalance.cs" />
+      <File FileName="JeanLaurore_CE02/S_Menu.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JeanLaurore_CE02" expanded="True">
+            <Node name="JeanLaurore_CE02" expanded="True">
+              <Node name="Menu.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.JeanLaurore__CE02 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

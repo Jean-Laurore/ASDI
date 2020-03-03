@@ -1,0 +1,7 @@
+Bob's Movie Store
+Orlando, FL 
+
+fantasy,Star Wars,Lucas,88.3
+fantasy,ET,Spielberg,14.2
+action,Terminator,Cameron,11.2
+action,Matrix,Walchowski,45.2

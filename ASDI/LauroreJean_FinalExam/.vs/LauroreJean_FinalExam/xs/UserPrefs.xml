@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{5C1C4AA9-1EBE-4D35-A90B-E0464800BDAD}|Default">
+  <MonoDevelop.Ide.ItemProperties.LauroreJean__FinalExam PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LauroreJean_FinalExam/Application.cs">
+    <Files>
+      <File FileName="LauroreJean_FinalExam/Program.cs" Line="9" Column="47" />
+      <File FileName="LauroreJean_FinalExam/Validation.cs" />
+      <File FileName="LauroreJean_FinalExam/Menu.cs" />
+      <File FileName="LauroreJean_FinalExam/Movie.cs" />
+      <File FileName="LauroreJean_FinalExam/Application.cs" Line="314" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LauroreJean_FinalExam" expanded="True">
+            <Node name="LauroreJean_FinalExam" expanded="True">
+              <Node name="Application.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

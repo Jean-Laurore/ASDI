@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{8A443E64-61A8-45EA-9AED-072897F6B9EB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LauroreJean_Zookeeper/Assignment.cs">
+    <Files>
+      <File FileName="LauroreJean_Zookeeper/Program.cs" Line="9" Column="45" />
+      <File FileName="LauroreJean_Zookeeper/Assignment.cs" Line="559" Column="25" />
+      <File FileName="LauroreJean_Zookeeper/Animal.cs" />
+      <File FileName="LauroreJean_Zookeeper/Pigeon.cs" />
+      <File FileName="LauroreJean_Zookeeper/Dog.cs" />
+      <File FileName="LauroreJean_Zookeeper/Parrots.cs" />
+      <File FileName="LauroreJean_Zookeeper/Raccoon.cs" />
+      <File FileName="LauroreJean_Zookeeper/Bat.cs" />
+      <File FileName="LauroreJean_Zookeeper/Opossum.cs" />
+      <File FileName="LauroreJean_Zookeeper/Validation.cs" />
+      <File FileName="LauroreJean_Zookeeper/Menu.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LauroreJean_Zookeeper" expanded="True">
+            <Node name="LauroreJean_Zookeeper" expanded="True">
+              <Node name="Assignment.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LauroreJean__Zookeeper PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

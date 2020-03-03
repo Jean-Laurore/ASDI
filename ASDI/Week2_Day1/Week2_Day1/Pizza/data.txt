@@ -1,0 +1,8 @@
+C,toyota,camry,2000,30
+B,yamaha,viper1,2
+C,mazda,camry,2000,30
+B,ford,viper1,2
+C,lexus,camry,2000,30
+B,mercedes,viper1,2
+
+

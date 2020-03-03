@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{A3623591-5260-483B-879A-2103317FCB73}|Default">
+  <MonoDevelop.Ide.ItemProperties.JeanLaurore__CE04 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JeanLaurore_CE04/Assignment.cs">
+    <Files>
+      <File FileName="JeanLaurore_CE04/Program.cs" Line="9" Column="45" />
+      <File FileName="JeanLaurore_CE04/Assignment.cs" Line="234" Column="48" />
+      <File FileName="JeanLaurore_CE04/Person.cs" />
+      <File FileName="JeanLaurore_CE04/Student.cs" />
+      <File FileName="JeanLaurore_CE04/Course.cs" />
+      <File FileName="JeanLaurore_CE04/Teacher.cs" />
+      <File FileName="JeanLaurore_CE04/Menu.cs" />
+      <File FileName="JeanLaurore_CE04/Validation.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JeanLaurore_CE04" expanded="True">
+            <Node name="JeanLaurore_CE04" expanded="True">
+              <Node name="Assignment.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

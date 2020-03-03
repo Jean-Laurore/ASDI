@@ -1,0 +1,11 @@
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/bin/Debug/netcoreapp3.1/Day1
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/bin/Debug/netcoreapp3.1/Day1.deps.json
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/bin/Debug/netcoreapp3.1/Day1.runtimeconfig.json
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/bin/Debug/netcoreapp3.1/Day1.runtimeconfig.dev.json
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/bin/Debug/netcoreapp3.1/Day1.dll
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/bin/Debug/netcoreapp3.1/Day1.pdb
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/obj/Debug/netcoreapp3.1/Day1.csprojAssemblyReference.cache
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/obj/Debug/netcoreapp3.1/Day1.AssemblyInfoInputs.cache
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/obj/Debug/netcoreapp3.1/Day1.AssemblyInfo.cs
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/obj/Debug/netcoreapp3.1/Day1.dll
+/Users/jeanlaurore/Desktop/ASDI/Day1/Day1/obj/Debug/netcoreapp3.1/Day1.pdb

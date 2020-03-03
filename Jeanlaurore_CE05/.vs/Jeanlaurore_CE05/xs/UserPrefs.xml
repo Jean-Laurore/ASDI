@@ -4,14 +4,14 @@
       <File FileName="Jeanlaurore_CE05/Program.cs" Line="9" Column="45" />
       <File FileName="Jeanlaurore_CE05/Menu.cs" />
       <File FileName="Jeanlaurore_CE05/Validation.cs" />
-      <File FileName="Jeanlaurore_CE05/Employee.cs" Line="1" Column="1" />
-      <File FileName="Jeanlaurore_CE05/Hourly.cs" Line="1" Column="1" />
-      <File FileName="Jeanlaurore_CE05/FullTime.cs" Line="1" Column="1" />
-      <File FileName="Jeanlaurore_CE05/PartTime.cs" Line="1" Column="1" />
-      <File FileName="Jeanlaurore_CE05/Salaried.cs" Line="1" Column="1" />
+      <File FileName="Jeanlaurore_CE05/Employee.cs" />
+      <File FileName="Jeanlaurore_CE05/Hourly.cs" />
+      <File FileName="Jeanlaurore_CE05/FullTime.cs" />
+      <File FileName="Jeanlaurore_CE05/PartTime.cs" />
+      <File FileName="Jeanlaurore_CE05/Salaried.cs" />
       <File FileName="Jeanlaurore_CE05/Manager.cs" Line="1" Column="1" />
-      <File FileName="Jeanlaurore_CE05/Assignment.cs" Line="29" Column="73" />
-      <File FileName="Jeanlaurore_CE05/output/data.json" Line="1" Column="1" />
+      <File FileName="Jeanlaurore_CE05/Assignment.cs" />
+      <File FileName="Jeanlaurore_CE05/output/data.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

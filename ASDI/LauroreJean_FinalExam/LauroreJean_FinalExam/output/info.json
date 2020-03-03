@@ -1,0 +1,24 @@
+[
+{
+"Genre":"Fantasy",
+"Title":"Star Wars",
+"Director":Lucas
+"Cost":88.3
+{
+"Genre":"Fantasy",
+"Title":"Star Wars",
+"Director":Lucas
+"Cost":88.3
+},
+{
+"Genre":"Action",
+"Title":"Terminator",
+"Director":Cameron
+"Cost":11.2
+{
+"Genre":"Action",
+"Title":"Terminator",
+"Director":Cameron
+"Cost":11.2
+}
+]

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{4243CBBE-131A-411E-967D-9EA0A90A438B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Day3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day3/Advanced.cs">
+    <Files>
+      <File FileName="Day3/Program.cs" Line="9" Column="42" />
+      <File FileName="Day3/EmptyClass.cs" Line="43" Column="18" />
+      <File FileName="Day3/Student.cs" Line="12" Column="20" />
+      <File FileName="Day3/Menu.cs" Line="4" Column="15" />
+      <File FileName="Day3/Validation.cs" Line="2" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day3" expanded="True">
+            <Node name="Day3" expanded="True">
+              <Node name="Advanced.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
